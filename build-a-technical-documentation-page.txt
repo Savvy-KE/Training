@@ -1,0 +1,107 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<main id="main-doc">
+  <link rel="stylesheet" href="styles.css">
+  <nav id="navbar">
+    <header>
+      <h1>Documentation</h1>
+    </header>
+    <a class="nav-link" href="#Introduction" id="Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables" id="Variables">Variables</a>
+    <a class="nav-link" href="#Constants" id="Constants">Constants</a>
+    <a class="nav-link" href="#Javascript" id="Javascript">Javascript</a>
+    <a class="nav-link" href="#References" id="References">References</a>
+  </nav>
+<section class="main-section" id="Introduction">
+  <header>
+    <h1>Introduction</h1>
+  </header>
+  <p></p>
+  <p></p>
+  <code></code>
+</section>
+<section class="main-section" id="Variables">
+  <header>
+    <h1>Variables</h1>
+  </header>
+  <p></p>
+  <p></p>
+  <code></code>
+</section>
+<section class="main-section" id="Constants">
+  <header>
+    <h1>Constants</h1>
+  </header>
+  <p></p>
+  <p></p>
+  <code></code>
+</section>
+<section class="main-section" id="Javascript">
+  <header>
+    <h1>Javascript</h1>
+  </header>
+  <p></p>
+  <p></p>
+  <code></code>
+</section>
+<section class="main-section" id="References">
+  <header>
+    <h1>References</h1>
+  </header>
+  <p></p>
+  <p></p>
+  <code></code>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</section>
+</main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar {
+  height: 100%; 
+  width: 160px;
+  position: fixed;
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+.nav-link {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+
+.nav-link:hover {
+  color: #f1f1f1;
+}
+
+
+.main-section {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .navbar {padding-top: 15px;}
+  .nav-link {font-size: 18px;}
+}
+
+** end of undefined **
+
